@@ -1,0 +1,8 @@
+iframe.peek-window {
+    border-style:solid;
+    border-color:gray;
+    border-width:1px;
+    position:absolute;
+    width:500px;
+    height:350px;
+}

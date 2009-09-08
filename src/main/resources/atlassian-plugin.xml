@@ -1,0 +1,14 @@
+<atlassian-plugin key="${atlassian.plugin.key}" name="conf-plugin">
+    
+    <plugin-info>
+        <description>My test confluence plugin</description>
+        <version>${project.version}</version>
+    </plugin-info>
+
+    <web-resource key="peek" name="Peek Web Resources" >
+        <resource type="download" name="peek.js" location="peek.js" />
+        <resource type="download" name="peek.css" location="peek.css" />
+        <context>page</context>
+    </web-resource>
+
+</atlassian-plugin>

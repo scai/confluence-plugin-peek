@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <parent>
+        <groupId>com.atlassian.confluence.plugin.base</groupId>
+        <artifactId>confluence-plugin-base</artifactId>
+        <version>22</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>scai.plugin</groupId>
+    <artifactId>peek</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <name>Confluence Plugin - Peek</name>
+    <packaging>atlassian-plugin</packaging>
+
+    <properties>
+        <atlassian.plugin.key>scai.plugin.peek</atlassian.plugin.key>
+        <atlassian.product.version>3.1-SNAPSHOT</atlassian.product.version>
+        <atlassian.product.test-lib.version>1.4.1</atlassian.product.test-lib.version>
+        <atlassian.product.data.version>3.1-SNAPSHOT</atlassian.product.data.version>
+    </properties>
+
+    <description>Peek for Confluence</description>
+	<url>https://extranet.atlassian.com/display/~scai/Project+Ideas</url>
+
+	<developers>
+		<developer>
+			<name>Shaoting Cai</name>
+			<organization>Atlassian</organization>
+		</developer>
+	</developers>
+
+</project>
